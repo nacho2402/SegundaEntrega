@@ -1,0 +1,316 @@
+/**General**/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    background-color: #E9E9E9;
+}
+header{  
+    a {
+        text-decoration: none;
+        .logo {
+            width: 300px;
+            height: auto;
+            margin: auto;
+            display: block;
+            border-radius: 100%;
+        }
+    }
+    nav {
+        background-color: #E9E9E9;
+        padding: 30px;
+        .nav-bar{
+            list-style: none;
+            list-style-type: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+            li{
+                display: inline;
+                padding: 15px;
+                .nav-link{
+                    color: #000;
+                    font-size: 20px;
+                    &:hover{
+                        color: #39B54A;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+.fondo-gral{
+    width: 100%;
+    background-color: #404040;
+    height: 100px;
+    line-height: 100px;
+    h2{
+        color: #39B54A;
+        text-align: center;
+        font-size: 40px;
+        line-height: 100px;
+    }
+}
+
+.principal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    .fondo-foto{
+        width:100%;
+        height:auto;
+    }
+    .destacada{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        .estrellita{
+            margin-right: 20px;
+        }
+        
+        .principal-tit{
+            margin-top: 10px;
+        }
+    }
+    .principal-fotos{
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: 80px;
+            &:hover{
+                box-shadow: 5px 2px 2px #404040;
+                transition: all .3s;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .prin-text{
+        display: flex;
+        justify-content: space-evenly ;
+    }
+}
+
+.contenedor-boton{
+        text-align: center;
+    .boton{
+        padding: 8px 22px;
+        font-size: 30px;
+        margin: 40px;
+        border-radius: 30px;
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+            background-color: #39B54A;
+        }
+    }
+}
+
+.recetas{
+        background-color: #ddd;
+    .recetas-lista {
+        list-style-type: none;
+        padding: 10px;
+        margin: 10px;
+        background-color: #ddd;
+        li {
+            text-align: left;
+            display: block;
+            background-color: #fff;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+.nostros-pri{
+    .notro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nostros-pri-text{
+            margin: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        .foto-chef{
+            border-radius: 10px;
+            border: 1px solid #39B54A;
+            margin: 20px;
+            max-width: 50%; 
+            height: auto;
+        }
+    }
+    .mapa {
+        text-align: center;
+        margin: 20px;
+        iframe {
+            border-radius: 10px;
+            max-width: 100%;
+            height: 450px;
+        }
+    }
+}
+
+.receta-fondo{
+    background-image: url(../images/recetas.jpg);
+    form {
+        background-color: #E9E9E9;
+        width: 800px;
+        margin: 0 auto;
+        padding: 50px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    input[type="number"],
+    textarea {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+    
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        transition: .3s;
+        &:hover{
+            background-color: #39B54A;
+        }
+    }
+}
+
+footer {
+    background-color: #404040;
+    text-align: center;
+    padding: 10px 0; 
+    p {
+        color: #F2F2F2;
+        line-height: 1.2; 
+        margin: 10px 0; 
+    }
+}
+
+ 
+
+/* Media Query*/
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    footer p {
+        font-size: 14px; 
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-bar li{
+        width: 100%;
+        margin-right: 25px;
+    }
+    
+}
+
+
+/**LOGO Y NAVBAR**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**H2 DE PAGES**/
+
+
+
+/** NOSOTROS**/
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .notro {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .foto-chef {
+        max-width: 100%; 
+    }
+
+    .nostros-pri-text{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/**TU RECETA**/
+
+
+
+
+
+/**RECETA**/
+
+
+
+
