@@ -1,0 +1,37 @@
+/*Foto Principal*/
+.principal {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    .fondo-foto{
+        width:100%;
+        height:auto;
+    }
+    .destacada{
+        @extend .flex-center;
+        margin-top: 25px;
+        .estrellita{
+            margin-right: 20px;
+        }
+        
+        .principal-tit{
+            margin-top: 10px;
+        }
+    }
+    .principal-fotos{
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            margin: 80px;
+            &:hover{
+                box-shadow: 5px 2px 2px #404040;
+                transition: all .3s;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .prin-text{
+        display: flex;
+        justify-content: space-evenly ;
+    }
+}

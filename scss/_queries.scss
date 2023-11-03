@@ -1,0 +1,40 @@
+/* Media Query*/
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+    footer p {
+        font-size: 14px; 
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-bar li{
+        width: 100%;
+        margin-right: 25px;
+    }
+    
+}
+
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    .notro {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .foto-chef {
+        max-width: 100%; 
+    }
+
+    .nostros-pri-text{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+/*Header*/
+header{  
+    a {
+        text-decoration: none;
+        .logo {
+            width: 300px;
+            height: auto;
+            margin: auto;
+            display: block;
+            border-radius: 100%;
+        }
+    }
+    nav {
+        background-color: #E9E9E9;
+        padding: 30px;
+        .nav-bar{
+            list-style: none;
+            list-style-type: none;
+            text-align: center;
+            @extend .flex-center;
+            li{
+                display: inline;
+                padding: 15px;
+                .nav-link{
+                    color: #000;
+                    font-size: 20px;
+                    &:hover{
+                        color: #39B54A;
+                        transition: .3s;
+                    }
+                }
+            }
+        }
+    }
+} 

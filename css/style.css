@@ -11,6 +11,7 @@ body {
   background-color: #E9E9E9;
 }
 
+/*Header*/
 header a {
   text-decoration: none;
 }
@@ -46,6 +47,7 @@ header nav .nav-bar li .nav-link:hover {
   transition: 0.3s;
 }
 
+/*Index*/
 .fondo-gral {
   width: 100%;
   background-color: #404040;
@@ -59,6 +61,7 @@ header nav .nav-bar li .nav-link:hover {
   line-height: 100px;
 }
 
+/*Foto Principal*/
 .principal {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
@@ -95,6 +98,7 @@ header nav .nav-bar li .nav-link:hover {
   justify-content: space-evenly;
 }
 
+/*Boton*/
 .contenedor-boton {
   text-align: center;
 }
@@ -110,6 +114,7 @@ header nav .nav-bar li .nav-link:hover {
   background-color: #39B54A;
 }
 
+/*Recetas*/
 .recetas {
   background-color: #ddd;
 }
@@ -131,6 +136,7 @@ header nav .nav-bar li .nav-link:hover {
   text-align: justify;
 }
 
+/*Sobre Nosotros*/
 .nostros-pri .notro {
   display: flex;
   align-items: center;
@@ -158,6 +164,7 @@ header nav .nav-bar li .nav-link:hover {
   height: 450px;
 }
 
+/*Forms*/
 .receta-fondo {
   background-image: url(../images/recetas.jpg);
 }
@@ -204,6 +211,7 @@ header nav .nav-bar li .nav-link:hover {
   background-color: #39B54A;
 }
 
+/*Footer*/
 footer {
   background-color: #404040;
   text-align: center;
@@ -237,9 +245,6 @@ footer p {
     margin-right: 25px;
   }
 }
-/**LOGO Y NAVBAR**/
-/**H2 DE PAGES**/
-/** NOSOTROS**/
 /* Media Query */
 @media screen and (max-width: 768px) {
   .notro {
@@ -253,7 +258,5 @@ footer p {
     font-size: 20px;
   }
 }
-/**TU RECETA**/
-/**RECETA**/
 
 /*# sourceMappingURL=style.css.map */
