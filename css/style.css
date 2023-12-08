@@ -135,6 +135,70 @@ header nav .nav-bar li .nav-link:hover {
 .recetas .recetas-lista p {
   text-align: justify;
 }
+.accordion-item{
+  --bs-accordion-active-bg: #82E0AA;
+}
+.burga {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.quino {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.lasa {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.curry {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.sopa {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.taco {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.budin {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.licuado {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.pizza {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+.pastel {
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+  border: 2px solid #82E0AA;
+}
+
 
 /*Sobre Nosotros*/
 .nostros-pri .notro {
@@ -170,27 +234,53 @@ header nav .nav-bar li .nav-link:hover {
 }
 .receta-fondo form {
   background-color: #E9E9E9;
-  width: 800px;
+  max-width: 800px; 
+  width: 90%; 
   margin: 0 auto;
-  padding: 50px;
+  padding: 5%; 
   border-radius: 5px;
   text-align: center;
 }
+
+/* Estilos para dispositivos medianos */
+@media screen and (max-width: 768px) {
+  .receta-fondo form {
+    padding: 8%; 
+  }
+  .receta-fondo input[type=text],
+  .receta-fondo input[type=number],
+  .receta-fondo textarea {
+    width: 100%; 
+  }
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 480px) {
+  .receta-fondo form {
+    padding: 10px; 
+  }
+  .receta-fondo input[type=text],
+  .receta-fondo input[type=number],
+  .receta-fondo textarea {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 8px; 
+  }
+  .fondo-gral h2 {
+    text-align: center; /* Centra el texto en dispositivos pequeños */
+    font-size: 24px; /* Tamaño de fuente más pequeño */
+    margin: 10px 0; /* Espaciado alrededor del título */
+  }
+}
+
+/* Mantener otros estilos inalterados */
 .receta-fondo label {
   display: block;
   margin-bottom: 5px;
 }
 .receta-fondo input[type=text],
-.receta-fondo textarea {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-.receta-fondo input[type=number],
-.receta-fondo textarea {
-  width: 90%;
+.receta-fondo textarea,
+.receta-fondo input[type=number] {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
